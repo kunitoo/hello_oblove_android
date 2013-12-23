@@ -11,6 +11,6 @@ class MainActivity extends Activity{
     super.onCreate(bundle)
     setContentView(R.layout.main)
 
-    findViewById(R.id.textview).asInstanceOf[TextView].setText("hello, world!")
+    findViewById(R.id.textview).asInstanceOf[TextView].setText("hello, oblove")
   }
 }
