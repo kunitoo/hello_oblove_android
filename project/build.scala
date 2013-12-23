@@ -7,10 +7,10 @@ import AndroidKeys._
 object General {
   val settings = Defaults.defaultSettings ++ Seq (
     name := "hello",
-    version := "0.1",
+    version := "0.2",
     versionCode := 0,
-    scalaVersion := "2.9.2",
-    platformName in Android := "android-17"
+    scalaVersion := "2.10.2",
+    platformName in Android := "android-19"
   )
 
    val proOpt = Seq(
